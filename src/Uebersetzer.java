@@ -105,6 +105,10 @@ public class Uebersetzer extends JFrame {
         super.dispose();
     }
 
+    private String info() {
+        return "Neues Feature zu Infos Übersetzer";
+    }
+
     public static void main(String[] args) {
         SwingUtilities.invokeLater(Uebersetzer::new);
     }
