@@ -1,0 +1,7 @@
+.idea/
+*.iml
+
+# Build Ordner
+out/
+build/
+target/
