@@ -12,4 +12,13 @@ git init
 git add .
 git commit -m "Message"
 ```
-> Zitat
+> Merge Konflikt provozieren:
+> - Lokal in Branch (hier in main) code ändern  
+> - An derselben Stelle Remote Code ändern (Simulation anderer Programmierer)
+> - git pull liefert Merge Konflikt
+
+> Merge Konflikt lösen
+> - In Intellij in angezeigter Leiste: resolve conflicts
+> - In angezeigten 3 Spalten linke oder rechte Variante auswählen
+> - git commit -m "Solved"
+> - git push -u origin main
