@@ -1,0 +1,9 @@
+### Soll nicht mit ins Online-Repo
+out/
+target/
+build/
+.idea/
+*.iml
+
+### VS Code ###
+.vscode/
